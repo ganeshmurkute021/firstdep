@@ -1,0 +1,17 @@
+body{
+    background: coral;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    color: brown;
+}
+h2{
+    color: yellow;
+}
+span{
+    color: white;
+}

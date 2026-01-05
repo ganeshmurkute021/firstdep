@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'css/first.css' %}">
+   
+</head>
+<body>
+    <h1>First Static file having some data</h1>
+    <ul>
+        <li>Name:{{name}}</li>
+        <li>Age:{{age}}</li>
+        <li>Loc:{{loc}}</li>
+    </ul>
+    <h2>Here is having images</h2>
+    <span>First Movie:</span> <img src="{% static 'images/yaara.jpg' %}" alt="">
+    <span>Second Movie:</span> <img src="{% static 'images/kgf.jpg' %}" alt="">
+    <span>Third Movie:</span> <img src="{% static 'images/dee.webp' %}" alt="">
+    <span>Forth Movie:</span> <img src="{% static 'images/sai.webp' %}" alt="">
+
+
+
+</body>
+</html>
